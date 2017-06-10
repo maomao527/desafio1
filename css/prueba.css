@@ -1,0 +1,146 @@
+body
+{
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+header
+{
+  background: #D5D3D3;
+  padding: 0;
+}
+
+.menu
+{
+  font-size: 20px;
+  display: inline-flex;
+  position: absolute;
+  right: 20px;
+}
+
+.menu li
+{
+  display: inline-block;
+  margin-left:10px;
+}
+
+
+.logotipo
+{
+    display: inline-grid;
+    margin-left: 20px;
+    padding-top: 0px;
+}
+
+.menu li:before
+{
+  content:'☆';
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+
+}
+
+.menu a
+{
+  color: black;
+  text-decoration: none;
+}
+
+.button
+{
+  border-radius: 3px;
+  border: none;
+  background: #fd324e;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 18px;
+  background: linear-gradient(to left, #fe344e, #ff7250);
+
+}
+
+.button2
+{
+  width: 50px;
+  border-radius: 3px;
+  border: none;
+  background: #fd324e;
+  color: black;
+  padding: 5px ;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  background: linear-gradient(to left, #fe344e, #ff7250);
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5px;
+
+
+}
+
+
+.buscando
+{
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 970px;
+}
+
+.espacio
+{
+  margin-top: 10px;
+  background-size: contain;
+}
+
+.sec1
+{
+  display: inline-flex;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+
+.sec2
+{
+  display: inline-flex;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+
+.sec3
+{
+  display: inline-flex;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+
+.sec4
+{
+  display: inline-flex;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+
+
+.sec5
+{
+  display: inline-flex;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+
+figcaption
+{
+  border-bottom: 1px solid black;
+}
